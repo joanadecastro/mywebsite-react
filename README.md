@@ -1,73 +1,90 @@
-# React + TypeScript + Vite
+# 🚀 Joana Castro Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## React Compiler
+### 🖥️ Hero
+![Hero](./screenshots/hero.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🎨 Portfolio
+![Portfolio](./screenshots/portfolio.png)
 
-## Expanding the ESLint configuration
+### 🧩 Tech Stack
+![Tech Stack](./screenshots/tech-stack.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 👩‍💻 About Me
+![About Me](./screenshots/aboutMe.png)
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ✨ About the Project
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+This is a personal portfolio website built with **React** to showcase my work, skills and approach to UI/UX design and frontend development.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+The goal was to create a clean, modern and visually strong interface.
+
+---
+
+## ✨ Features
+
+- Built with React
+- Clean and modern UI
+- Structured sections (Hero, About, Tech Stack, Portfolio)
+- Component-based architecture
+- Responsive layout (in progress)
+
+---
+
+## 🛠️ Tech Stack
+
+- React  
+- TypeScript  
+- Vite  
+- CSS  
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/joanadecastro/mywebsite-react.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2. Install dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
 ```
+
+### 3. Run the project
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 Purpose
+
+This project was created to demonstrate:
+
+- UI/UX design skills  
+- Frontend development with React  
+- Ability to build clean and modern interfaces  
+
+---
+
+## 👩‍💻 Author
+
+**Joana Castro**
+
+- LinkedIn:(https://www.linkedin.com/in/joanacastrowebdeveloper/) 
+
+
+---
+
+## 📌 Notes
+
+This project is continuously evolving and will be improved with responsiveness and new features.
