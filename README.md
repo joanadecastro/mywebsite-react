@@ -11,7 +11,7 @@
 ![Portfolio](./screenshots/portfolio.png)
 
 ### 🧩 Tech Stack
-![Tech Stack](./screenshots/tech-stack.png)
+![Tech Stack](./screenshots/techStack.png)
 
 ### 👩‍💻 About Me
 ![About Me](./screenshots/aboutMe.png)
